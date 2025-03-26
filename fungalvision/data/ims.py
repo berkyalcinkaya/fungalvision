@@ -1,6 +1,6 @@
-from yeastvision.track.data import LineageData, TimeSeriesData
+from fungalvision.track.data import LineageData, TimeSeriesData
 from .utils import *
-from yeastvision.utils import get_mask_contour
+from fungalvision.utils import get_mask_contour
 import os 
 from skimage.io import imread
 import numpy as np

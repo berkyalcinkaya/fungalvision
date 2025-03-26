@@ -1,6 +1,6 @@
 from scipy.stats import mode
 from skimage.morphology import thin
-from yeastvision.track.fiest.utils import remove_artif, binar, OAM_23121_tp3
+from fungalvision.track.fiest.utils import remove_artif, binar, OAM_23121_tp3
 import numpy as np
 from typing import List, Optional
 import time

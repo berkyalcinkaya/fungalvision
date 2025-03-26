@@ -3,11 +3,11 @@ import cv2
 from torch.nn import functional as F
 import torch
 import numpy as np
-from yeastvision.ims.rife_model.pytorch_msssim import ssim_matlab
+from fungalvision.ims.rife_model.pytorch_msssim import ssim_matlab
 from queue import Queue, Empty
 from .rife_model.RIFE import Model
-from yeastvision.ims import rife_model
-from yeastvision.data.ims import InterpolatedChannel
+from fungalvision.ims import rife_model
+from fungalvision.data.ims import InterpolatedChannel
 import copy
 import os
 

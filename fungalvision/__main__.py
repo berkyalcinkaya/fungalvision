@@ -1,23 +1,23 @@
-from yeastvision.data.ims import Experiment, ChannelNoDirectory, InterpolatedChannel
-from yeastvision.parts.canvas import ImageDraw, ViewBoxNoRightDrag
-from yeastvision.parts.guiparts import *
-from yeastvision.parts.workers import FiestWorker, SegmentWorker, TrackWorker, InterpolationWorker
-from yeastvision.parts.dialogs import *
-from yeastvision.track.fiest.full_lifecycle_utils import track_general_masks
-from yeastvision.track.track import track_to_cell, track_proliferating
-from yeastvision.track.data import LineageData, TimeSeriesData
-from yeastvision.track.cell import LABEL_PROPS, IM_PROPS, EXTRA_IM_PROPS, average_axis_lengths, exportCellData, getHeatMaps, getPotentialHeatMapNames
-import yeastvision.plot.plot as plot
-from yeastvision.utils import *
-import yeastvision.ims.im_funcs as im_funcs
-from yeastvision.ims.interpolate import interpolate_intervals, rife_weights_loaded, deinterpolate, RIFE_WEIGHTS_PATH, RIFE_WEIGHTS_NAME
-import yeastvision.parts.menu as menu
-from yeastvision.models.utils import MODEL_DIR, getBuiltInModelTypes, getModelLoadedStatus, produce_weight_path, getModelsByType
-from yeastvision.install import TEST_MOVIE_DIR, TEST_MOVIE_URL, install_test_ims, install_weight, install_rife
-from yeastvision.disk.reader import ImageData
-from yeastvision.parts.fiest_wizard import FiestWizard
-from yeastvision.parts.fiest_full_lifecycle_wizard import FiestFullLifeCycleWizard
-from yeastvision.track.fiest.track import fiest_basic, fiest_basic_with_lineage, fiest_full_lifecycle
+from fungalvision.data.ims import Experiment, ChannelNoDirectory, InterpolatedChannel
+from fungalvision.parts.canvas import ImageDraw, ViewBoxNoRightDrag
+from fungalvision.parts.guiparts import *
+from fungalvision.parts.workers import FiestWorker, SegmentWorker, TrackWorker, InterpolationWorker
+from fungalvision.parts.dialogs import *
+from fungalvision.track.fiest.full_lifecycle_utils import track_general_masks
+from fungalvision.track.track import track_to_cell, track_proliferating
+from fungalvision.track.data import LineageData, TimeSeriesData
+from fungalvision.track.cell import LABEL_PROPS, IM_PROPS, EXTRA_IM_PROPS, average_axis_lengths, exportCellData, getHeatMaps, getPotentialHeatMapNames
+import fungalvision.plot.plot as plot
+from fungalvision.utils import *
+import fungalvision.ims.im_funcs as im_funcs
+from fungalvision.ims.interpolate import interpolate_intervals, rife_weights_loaded, deinterpolate, RIFE_WEIGHTS_PATH, RIFE_WEIGHTS_NAME
+import fungalvision.parts.menu as menu
+from fungalvision.models.utils import MODEL_DIR, getBuiltInModelTypes, getModelLoadedStatus, produce_weight_path, getModelsByType
+from fungalvision.install import TEST_MOVIE_DIR, TEST_MOVIE_URL, install_test_ims, install_weight, install_rife
+from fungalvision.disk.reader import ImageData
+from fungalvision.parts.fiest_wizard import FiestWizard
+from fungalvision.parts.fiest_full_lifecycle_wizard import FiestFullLifeCycleWizard
+from fungalvision.track.fiest.track import fiest_basic, fiest_basic_with_lineage, fiest_full_lifecycle
 import os
 import torch
 import numpy as np

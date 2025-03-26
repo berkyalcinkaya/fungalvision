@@ -4,7 +4,7 @@ import numpy as np
 import scipy.io as sio
 from skimage.morphology import skeletonize, thin
 from scipy.stats import mode
-from yeastvision.track.fiest.utils import cal_allob, cal_celldata, replace_none_with_empty_array
+from fungalvision.track.fiest.utils import cal_allob, cal_celldata, replace_none_with_empty_array
 
 # step 3
 def track_mating(matSeg_output:np.ndarray, mating_interval:List[int], shock_period:Optional[List[int]]):

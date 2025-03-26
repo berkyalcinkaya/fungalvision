@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
-from yeastvision.track.cell import getLifeData, getCellData
-from yeastvision.track.lineage import LineageConstruction, has_daughters, get_daughters, get_generations, get_gametes, compute_mating_lineage
-from yeastvision.utils import normalize_im
+from fungalvision.track.cell import getLifeData, getCellData
+from fungalvision.track.lineage import LineageConstruction, has_daughters, get_daughters, get_generations, get_gametes, compute_mating_lineage
+from fungalvision.utils import normalize_im
 
 class Population():
     def __init__(self, name, replicates):

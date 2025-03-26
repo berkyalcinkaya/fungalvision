@@ -8,9 +8,9 @@ from .mating import track_mating
 from .tetrads import track_tetrads
 from .full_lifecycle_utils import track_general_masks
 from .correction import correct_mating, correct_proSeg_with_mating, correct_proSeg_with_tetrads
-from yeastvision.ims.interpolate import interpolate_intervals, get_interp_labels, deinterpolate
-from yeastvision.track.track import track_proliferating
-from yeastvision.track.lineage import LineageConstruction
+from fungalvision.ims.interpolate import interpolate_intervals, get_interp_labels, deinterpolate
+from fungalvision.track.track import track_proliferating
+from fungalvision.track.lineage import LineageConstruction
 from .FL import FL
 from skimage.io import imsave
 

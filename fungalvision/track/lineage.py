@@ -4,8 +4,8 @@ import logging
 import numpy as np
 from skimage.morphology import binary_dilation, binary_erosion, disk
 from skimage.measure import label
-from yeastvision.track.cell import getBirthFrame, getLifeData
-from yeastvision.track.utils import normalize_dict_by_sum
+from fungalvision.track.cell import getBirthFrame, getLifeData
+from fungalvision.track.utils import normalize_dict_by_sum
 from tqdm import tqdm
 from skimage.morphology import skeletonize
 

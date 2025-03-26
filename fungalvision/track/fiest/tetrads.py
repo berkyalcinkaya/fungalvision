@@ -5,7 +5,7 @@ from skimage.transform import resize
 from skimage.morphology import skeletonize, erosion, square
 from skimage.filters import threshold_otsu
 from scipy.stats import mode
-from yeastvision.track.fiest.utils import cal_allob2, cal_allob1, cal_celldata, replace_none_with_empty_array, binar
+from fungalvision.track.fiest.utils import cal_allob2, cal_allob1, cal_celldata, replace_none_with_empty_array, binar
 
 def track_tetrads(spoSeg_output:np.ndarray, tetrad_interval: List, movie_length:int, shock_period:Optional[List[int]]=None):
     # define some global variables

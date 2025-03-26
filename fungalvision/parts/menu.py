@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QAction
-from yeastvision.disk import io
+from fungalvision.disk import io
 
 def menubar(parent):
     mainMenu = parent.menuBar()

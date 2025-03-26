@@ -5,9 +5,9 @@ from PyQt5.QtWidgets import (QApplication, QRadioButton, QButtonGroup, QSlider, 
 import pyqtgraph as pg
 from pyqtgraph.dockarea.Dock import Dock
 from pyqtgraph.dockarea.DockArea import DockArea
-from yeastvision.plot.cell_table import TableModel
-from yeastvision.plot.types import SingleCellUpdatePlot, HeatMap, PopulationPlot, SingleFrameUpdatePlot
-from yeastvision.track.data import PopulationReplicate, Population
+from fungalvision.plot.cell_table import TableModel
+from fungalvision.plot.types import SingleCellUpdatePlot, HeatMap, PopulationPlot, SingleFrameUpdatePlot
+from fungalvision.track.data import PopulationReplicate, Population
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 import matplotlib.pyplot as plt
 import numpy as np

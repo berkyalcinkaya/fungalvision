@@ -1,4 +1,4 @@
-from yeastvision.track.fiest.utils import cal_allob, cal_celldata, cal_allob2, binar, resize_image
+from fungalvision.track.fiest.utils import cal_allob, cal_celldata, cal_allob2, binar, resize_image
 import numpy as np
 from skimage.transform import resize
 from skimage.morphology import  erosion, square

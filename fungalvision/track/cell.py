@@ -3,7 +3,7 @@ from skimage.measure import shannon_entropy as shentr
 from skimage.measure import label
 import numpy as np
 import pandas as pd
-from yeastvision.utils import normalize_im
+from fungalvision.utils import normalize_im
 from tqdm import tqdm
 from typing import List
 

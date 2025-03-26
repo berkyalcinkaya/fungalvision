@@ -1,4 +1,4 @@
-from yeastvision.models.utils import is_RGB
+from fungalvision.models.utils import is_RGB
 import torch
 import numpy as np
 from PyQt5 import QtCore

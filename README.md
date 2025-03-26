@@ -1,31 +1,29 @@
 
 
-# Yeastvision 
+# Fungalvision
 
 <img src="https://raw.githubusercontent.com/berkyalcinkaya/yeastvision/main/yeastvision/docs/figs/logo.png" height="200" align="right" vspace=0 hspace = 0>
 
-### A GUI-based framework for deep-learning enabled segmentation, tracking, time-series analysis of the full Saccharomyces cerevisiae lifecycle
+### A GUI-based framework for deep-learning enabled segmentation, tracking, time-series analysis of filamentous organisms
 
-#### Read the paper [Deep learning-driven imaging of cell division and cell growth across an entire eukaryotic life cycle](https://www.biorxiv.org/content/10.1101/2024.04.25.591211v1)
+##### Developed at the [Miranda Laboratory](https://cals.ncsu.edu/plant-and-microbial-biology/people/oargell/) at NCSU
 
-##### Developed at the [Miranda Laboratory](https://cals.ncsu.edu/plant-and-microbial-biology/people/oargell/) at NCSU with the support of NIH-NIGMS R00GM135487 and the National Institute for Theory and Mathematics in Biology (NITMB)
-
-[![PyPI version](https://badge.fury.io/py/yeastvision.svg)](https://badge.fury.io/py/yeastvision)
-[![Downloads](https://pepy.tech/badge/yeastvision)](https://pepy.tech/project/yeastvision)
-[![Downloads](https://pepy.tech/badge/yeastvision/month)](https://pepy.tech/project/yeastvision)
-[![Python version](https://img.shields.io/pypi/pyversions/yeastvision)](https://pypistats.org/packages/yeastvision)
-[![License: GPL v3](https://img.shields.io/github/license/berkyalcinkaya/yeastvision)](https://github.com/berkyalcinkaya/yeastvision/blob/main/LICENSE)
-[![Contributors](https://img.shields.io/github/contributors-anon/berkyalcinkaya/yeastvision)](https://github.com/berkyalcinkaya/yeastvision/graphs/contributors)
-[![repo size](https://img.shields.io/github/repo-size/berkyalcinkaya/yeastvision)](https://github.com/berkyalcinkaya/yeastvision/)
-[![GitHub stars](https://img.shields.io/github/stars/berkyalcinkaya/yeastvision?style=social)](https://github.com/berkyalcinkaya/yeastvision/)
-[![GitHub forks](https://img.shields.io/github/forks/berkyalcinkaya/yeastvision?style=social)](https://github.com/berkyalcinkaya/yeastvision/)
+[![PyPI version](https://badge.fury.io/py/fungalvision.svg)](https://badge.fury.io/py/fungalvision)
+[![Downloads](https://pepy.tech/badge/fungalvision)](https://pepy.tech/project/fungalvision)
+[![Downloads](https://pepy.tech/badge/fungalvision/month)](https://pepy.tech/project/fungalvision)
+[![Python version](https://img.shields.io/pypi/pyversions/fungalvision)](https://pypistats.org/packages/fungalvision)
+[![License: GPL v3](https://img.shields.io/github/license/berkyalcinkaya/fungalvision)](https://github.com/berkyalcinkaya/fungalvision/blob/main/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors-anon/berkyalcinkaya/fungalvision)](https://github.com/berkyalcinkaya/fungalvision/graphs/contributors)
+[![repo size](https://img.shields.io/github/repo-size/berkyalcinkaya/fungalvision)](https://github.com/berkyalcinkaya/fungalvision/)
+[![GitHub stars](https://img.shields.io/github/stars/berkyalcinkaya/fungalvision?style=social)](https://github.com/berkyalcinkaya/fungalvision/)
+[![GitHub forks](https://img.shields.io/github/forks/berkyalcinkaya/fungalvision?style=social)](https://github.com/berkyalcinkaya/fungalvision/)
 
 
 ## Enhance time-series resolution with generative AI
-<img src="https://raw.githubusercontent.com/berkyalcinkaya/yeastvision/main/yeastvision/docs/figs/interp.gif?raw=True" width="2000" height="600" />
+<img src="https://raw.githubusercontent.com/berkyalcinkaya/fungalvision/main/fungalvision/docs/figs/interp.gif?raw=True" width="2000" height="600" />
 
 ## The interface: segment, track, and analyze  
-<img src="https://raw.githubusercontent.com/berkyalcinkaya/yeastvision/main/yeastvision/docs/figs/gui.png" title="yeastvision GUI window" height=350>
+<img src="https://raw.githubusercontent.com/berkyalcinkaya/fungalvision/main/fungalvision/docs/figs/gui.png" title="fungalvision GUI window" height=350>
 
 
 ## Key Features
@@ -41,45 +39,45 @@
 
 ### System requirements
 
-This package supports Linux, Windows and Mac OS (versions later than Yosemite). GPU support is available for NVIDIA GPU's. A GPU is recommended, but not required, to run `yeastvision`
+This package supports Linux, Windows and Mac OS (versions later than Yosemite). GPU support is available for NVIDIA GPU's. A GPU is recommended, but not required, to run `fungalvision`
  
 ### Instructions 
 
-`yeastvision` is ready to go for cpu-usage as soon as it downloaded. GPU-usage requires some additional steps after download. To download:
+`fungalvision` is ready to go for cpu-usage as soon as it downloaded. GPU-usage requires some additional steps after download. To download:
 
 1. Install an [Anaconda](https://www.anaconda.com/products/distribution) distribution of Python. Note you might need to use an anaconda prompt if you did not add anaconda to the path.
 2. Open an anaconda prompt/command prompt
-3. If you have an older `yeastvision` environment you should remove it with `conda env remove -n yeastvision` before creating a new one. 
-4. Create a new environment with `conda create --name yeastvision python=3.10.0`. 
-5. Activate this new environment by running `conda activate yeastvision`
-6. To download our package plus all dependencies, run `python -m pip install yeastvision` on Windows and `python3 -m pip install yeastvision` on Linux, Ubuntu, and Mac OS.
+3. If you have an older `fungalvision` environment you should remove it with `conda env remove -n fungalvision` before creating a new one. 
+4. Create a new environment with `conda create --name fungalvision python=3.10.0`. 
+5. Activate this new environment by running `conda activate fungalvision`
+6. To download our package plus all dependencies, run `python -m pip install fungalvision` on Windows and `python3 -m pip install fungalvision` on Linux, Ubuntu, and Mac OS.
 
 
-You should upgrade the [yeastvision package](https://pypi.org/project/yeastvision/) periodically as it is still in development. To do so, run the following in the environment:
+You should upgrade the [fungalvision package](https://pypi.org/project/yeastvision/) periodically as it is still in development. To do so, run the following in the environment:
 
 ~~~sh
-python -m pip install yeastvision --upgrade
+python -m pip install fungalvision --upgrade
 ~~~
 for Windows or 
 ~~~sh
-python3 -m pip install yeastvision --upgrade
+python3 -m pip install fungalvision --upgrade
 ~~~
 
 See [Troubleshooting: Common Problems](##troubleshooting:-common-problems) for potential install errors.
 
-### Using yeastvision with Nvidia GPU: PyTorch Configurations
+### Using fungalvision with Nvidia GPU: PyTorch Configurations
 
 To use your NVIDIA GPU with python, you will first need to install a [NVIDIA driver](https://www.nvidia.com/Download/index.aspx?lang=en-us) for
 your GPU. Once downloaded, ensure that your GPU is detected by running `nvidia-smi` in the terminal. Note that version that is displayed.
 
-`yeastvision` relies on `pytorch` for implementation of the deep-learning models, which we will need to configure for gpu usage. Ensure your yeastvision conda environment is active for the following commands.
+`fungalvision` relies on `pytorch` for implementation of the deep-learning models, which we will need to configure for gpu usage. Ensure your fungalvision conda environment is active for the following commands.
 
 First, we need to remove the CPU version of torch and torchvision:
 ~~~
 pip uninstall torch; pip uninstall torchvision
 ~~~
 
-Now install `torch` and `torchvision` for your CUDA version and OS. You can find your system's version on the top right corner of the output table of `nvidia-smi` in the terminal. Follow the official PyTorch instructions (here)[https://pytorch.org/get-started/locally/]. For CUDA versions lower than 11.8, see (here)[https://pytorch.org/get-started/previous-versions/]. Please note that these instructions often give commands that include `torchaudio`, but this package is not required for `yeastvision`. 
+Now install `torch` and `torchvision` for your CUDA version and OS. You can find your system's version on the top right corner of the output table of `nvidia-smi` in the terminal. Follow the official PyTorch instructions (here)[https://pytorch.org/get-started/locally/]. For CUDA versions lower than 11.8, see (here)[https://pytorch.org/get-started/previous-versions/]. Please note that these instructions often give commands that include `torchaudio`, but this package is not required for `fungalvision`. 
 
 Example command (CUDA 11.8, Linux)
 ~~~
@@ -94,18 +92,18 @@ After install you can check `conda list` for `pytorch`, and its version info sho
 
 These are addressed below in [Troubleshooting: Common Problems](##troubleshooting:-common-problems)
 
-# Running yeastvision
+# Running fungalvision
 
 ## Quickstart
 Activate the correct conda environment. In the command prompt, run either
-- `yeastvision -test` to open the GUI with our sample 10-frame movie.
-- `yeastvision` to open a blank GUI window. Drag and drop <ins>directory</ins> containing 2D-image files into the GUI to begin segmenting, labeling, or processing
+- `fungalvision -test` to open the GUI with our sample 10-frame movie.
+- `fungalvision` to open a blank GUI window. Drag and drop <ins>directory</ins> containing 2D-image files into the GUI to begin segmenting, labeling, or processing
 
-Yeastvision accepts directories of image files, loaded through drag-and-drop or the file menu. Each file in the directory should contain only a single 2D image, named with a standard image file extension. 
+fungalvision accepts directories of image files, loaded through drag-and-drop or the file menu. Each file in the directory should contain only a single 2D image, named with a standard image file extension. 
 
 **Note:** As you segment, interpolate, or process images, GUI-generated labels and images are stored in the loaded directory as `.npz` files. Deleting these files results in loss of the data. 
 
-**Yeastvision expects directories to contain only files with valid image extensions or `.npz` files created in previous yeastvision sessions.**
+**fungalvision expects directories to contain only files with valid image extensions or `.npz` files created in previous fungalvision sessions.**
 
 **Important:** Ensure that all images in the same channel have the same dimensions.
 
@@ -134,7 +132,7 @@ im002_mask1.tif, im002_mask2.tif* <br>
 # GUI Features
 
 ## Segmentation
-Yeastvision contains models to accurately segment yeast in all stages of their lifecycle. Simply choose one of the following models from the model dropdown and click run. </em>
+Fungalvision contains models to accurately segment yeast in all stages of their lifecycle. Simply choose one of the following models from the model dropdown and click run. </em>
 
 **Pixel flow-based models**
 
@@ -146,7 +144,7 @@ Yeastvision contains models to accurately segment yeast in all stages of their l
 | budSeg | bud-necks |
 
 <img src="https://raw.githubusercontent.com/berkyalcinkaya/yeastvision/main/yeastvision/docs/figs/lifecycle_segmentation.png" title="Saccharomyces cerevisiae full lifecycle">
-<em>Yeastvision contains models and tracking algorithms to analyze all stages of the yeast lifecycle</em>
+<em>fungalvision contains models and tracking algorithms to analyze all stages of the yeast lifecycle</em>
 
 ## Model Retraining
 1. Ensure that training data is loaded into the current experiment
@@ -194,7 +192,7 @@ Yeastvision contains models to accurately segment yeast in all stages of their l
 
 | Problem     | Solution |
 | ----------- | ----------- |
-|`lib/python3.10/site-packages/torch/lib/libtorch_cpu.so: undefined symbol: iJIT_NotifyEvent`| Install the latest version of torch and torchvision for your system into your yeastvision Conda env. Instructions [here](https://pytorch.org/get-started/locally/).|
+|`lib/python3.10/site-packages/torch/lib/libtorch_cpu.so: undefined symbol: iJIT_NotifyEvent`| Install the latest version of torch and torchvision for your system into your fungalvision Conda env. Instructions [here](https://pytorch.org/get-started/locally/).|
 | `ModuleNotFoundError: No module named 'chardet'` | run `pip install chardet` |
 | Cannot scroll through images/masks on the display | Click on the display to bring focus back to this widget|
 | Loaded images without masks but cannot draw | An existing label must be present to draw: Add a blank label with File -> Add Blank Label |

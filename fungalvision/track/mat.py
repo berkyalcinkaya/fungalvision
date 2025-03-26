@@ -1,13 +1,13 @@
 import cv2
 import numpy as np
-import yeastvision.track.utils as f
-from yeastvision.utils import showCellNums
+import fungalvision.track.utils as f
+from fungalvision.utils import showCellNums
 import statistics as stats
 import matplotlib.pyplot as plt
 from skimage.morphology import thin, skeletonize, opening, dilation, erosion, square
 from skimage.measure import regionprops, label
 from tqdm import tqdm
-from yeastvision.track.cell import getBirthFrame
+from fungalvision.track.cell import getBirthFrame
 
 def get_mating_data(mating, cells):
     mating_tracks = correct_mat_tracks(track_mating(mating))

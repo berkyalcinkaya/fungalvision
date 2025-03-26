@@ -6,10 +6,10 @@ from PyQt5.QtWidgets import (QTreeWidgetItem, QPushButton, QDialog,
 from PyQt5.QtCore import QTimer, Qt, pyqtSignal
 import numpy as np
 import os
-from yeastvision.parts.guiparts import *
-from yeastvision.plot.plot import PlotProperty
+from fungalvision.parts.guiparts import *
+from fungalvision.plot.plot import PlotProperty
 import math
-from yeastvision.data.ims import InterpolatedChannel
+from fungalvision.data.ims import InterpolatedChannel
 
 class ChoiceDialog(QDialog):
     def __init__(self, choices, title, parent=None):

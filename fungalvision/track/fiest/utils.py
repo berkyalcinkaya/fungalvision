@@ -1,11 +1,11 @@
 import numpy as np
 from skimage.morphology import disk, dilation, opening
 from scipy.ndimage import zoom
-from yeastvision.models.proSeg.model import ProSeg
-from yeastvision.models.budSeg.model import BudSeg
-from yeastvision.models.matSeg.model import MatSeg
-from yeastvision.models.spoSeg.model import SpoSeg
-from yeastvision.models.utils import produce_weight_path
+from fungalvision.models.proSeg.model import ProSeg
+from fungalvision.models.budSeg.model import BudSeg
+from fungalvision.models.matSeg.model import MatSeg
+from fungalvision.models.spoSeg.model import SpoSeg
+from fungalvision.models.utils import produce_weight_path
 import os
 import numpy as np
 import cv2

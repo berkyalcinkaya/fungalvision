@@ -4,8 +4,8 @@ import itertools
 from os.path import join
 from PyQt5.QtWidgets import QFileDialog
 from PyQt5.QtWidgets import QDialog
-from yeastvision.models.utils import MODEL_DIR, CUSTOM_MODEL_TYPES, getBuiltInModelTypes
-from yeastvision.parts.dialogs import ComboBoxDialog
+from fungalvision.models.utils import MODEL_DIR, CUSTOM_MODEL_TYPES, getBuiltInModelTypes
+from fungalvision.parts.dialogs import ComboBoxDialog
 
 def custom_model_type_search(key):
     for model in CUSTOM_MODEL_TYPES:

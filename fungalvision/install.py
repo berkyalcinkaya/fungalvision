@@ -1,6 +1,6 @@
-import yeastvision
-from yeastvision.models.utils import MODEL_DIR
-from yeastvision.ims.interpolate import RIFE_DIR, RIFE_WEIGHTS_PATH
+import fungalvision
+from fungalvision.models.utils import MODEL_DIR
+from fungalvision.ims.interpolate import RIFE_DIR, RIFE_WEIGHTS_PATH
 from tqdm import tqdm
 import os
 import requests
@@ -12,7 +12,7 @@ TEST_MOVIE_URL = "https://github.com/berkyalcinkaya/yeastvision/blob/main/data/s
 TEST_MOVIE_NUM_IMS = 10
 TEST_MOVIE_ITEMS = ["channel2_cdc", "channel1_phase", "mask1"]
 TEST_MOVIE_IM_FORMAT = "im00x"
-TEST_MOVIE_DIR = os.path.join(os.path.dirname(yeastvision.__path__[0]), "data/sample_movie_1")
+TEST_MOVIE_DIR = os.path.join(os.path.dirname(fungalvision.__path__[0]), "data/sample_movie_1")
 
 
 def install_weight(model_name):

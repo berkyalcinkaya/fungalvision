@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QPushButton, QHBoxLayout, QWizard, QWizardPage, QSpinBox, QComboBox, QCheckBox
 from PyQt5.QtCore import pyqtSignal
-from yeastvision.parts.dialogs import InterpolationIntervalWidget
-from yeastvision.parts.guiparts import NumericLineEdit
+from fungalvision.parts.dialogs import InterpolationIntervalWidget
+from fungalvision.parts.guiparts import NumericLineEdit
 
 
 class SimpleTextPage(QWizardPage):

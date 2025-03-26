@@ -5,7 +5,7 @@ Berk Yalcinkaya
 A script track a full-lifecycle movie. Utilizes a novel tracking algorithm to track yeast colonies with sporulating and mating cells. 
 Takes a directory as input and assumes that tetrad and mating segmentations are present for their correct intervals.
 '''
-from yeastvision.track.fiest.track import track_full_lifecycle
+from fungalvision.track.fiest.track import track_full_lifecycle
 import os
 from os.path import join
 from glob import glob

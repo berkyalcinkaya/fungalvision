@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QHBoxLayout, QWizard, QWizardPage, QComboBox, QCheckBox
 from PyQt5.QtCore import pyqtSignal
-from yeastvision.models.proSeg.model import ProSeg
-from yeastvision.models.budSeg.model import BudSeg
-from yeastvision.parts.wizard_utils import InterpolationDialog, SimpleTextPage, ParameterInputPage
+from fungalvision.models.proSeg.model import ProSeg
+from fungalvision.models.budSeg.model import BudSeg
+from fungalvision.parts.wizard_utils import InterpolationDialog, SimpleTextPage, ParameterInputPage
 
 fiest_instructs = '''Frame Interpolation Enhanced Single-cell Tracking (FIEST),(FIEST):\n
 Step 1: Interpolate images over specified intervals to enhance resolution\n

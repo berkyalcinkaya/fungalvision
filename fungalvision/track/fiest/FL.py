@@ -10,7 +10,7 @@ import scipy.io as sio
 from skimage.io import imread
 from skimage.morphology import skeletonize
 from scipy.stats import mode
-from yeastvision.track.fiest.utils import (cal_celldata, binar, cal_allob, cal_allob1, 
+from fungalvision.track.fiest.utils import (cal_celldata, binar, cal_allob, cal_allob1, 
                                            resize_image, replace_none_with_empty_array, OAM_23121_tp3, 
                                            remove_artif, cal_allob2)
 import matplotlib.pyplot as plt

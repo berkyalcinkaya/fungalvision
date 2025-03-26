@@ -3,7 +3,7 @@ import os
 import numpy as np
 from skimage.io import imread
 from skimage.measure import label
-from yeastvision.utils import get_mask_contour
+from fungalvision.utils import get_mask_contour
 import pickle
 from tqdm import tqdm
 from os.path import splitext, basename
